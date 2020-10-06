@@ -4,6 +4,7 @@ import  {
     Nav, 
     NavBarContainer, 
     NavLogo,
+    NavH1,
     MobileIcon, 
     NavMenu, 
     NavLinks, 
@@ -18,7 +19,7 @@ const Navbar = ({ toggle }) => {
             <Nav>
                 <NavBarContainer>
                     <NavLogo to="/">
-                        <h1>M </h1>
+                        <NavH1>M</NavH1>
                         <MobileIcon onClick={ toggle }>
                             <FaBars />
                         </MobileIcon>

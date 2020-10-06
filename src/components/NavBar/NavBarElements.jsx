@@ -5,7 +5,7 @@ import { Link as LinkS} from 'react-scroll'
 export const Nav = styled.nav`
     background : #000;
     height : 80px;
-    /* margin-top : -80px; */
+    margin-top : -80px; 
     display : flex;
     align-items : center;
     font-size : 1rem;
@@ -28,7 +28,6 @@ export const NavBarContainer = styled.div`
     padding : 0 24px;
 `
 export const NavLogo = styled(LinkR)`
-
     color : #fff;
     cursor : pointer;
     justify-self : flex-start;
@@ -37,6 +36,11 @@ export const NavLogo = styled(LinkR)`
     font-size : 1.5rem;
     margin-left : 24px;
     text-decoration : none;
+`
+
+export const NavH1 = styled.h1`
+    font-family : 'Press Start 2P' !important;
+
 `
 export const MobileIcon = styled.div`
     display : none;

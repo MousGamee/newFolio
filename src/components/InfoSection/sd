@@ -1,0 +1,4 @@
+grid-template-areas : ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+ grid-template-areas : ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+color : ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
+color : ${({darkText}) => (darkText ? '#010606' : '#fff')};
